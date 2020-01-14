@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-import pdfjs from "pdfjs-dist";
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import pdfjs from "pdfjs-dist/webpack";
 
 // Inspired by https://stackoverflow.com/questions/12921052/parsing-pdf-pages-as-javascript-images
 const pdfBlobToPngBlob = async (pdfBlob, options = {}) => {

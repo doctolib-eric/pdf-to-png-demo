@@ -15,7 +15,7 @@ export default async (pdfBlob, options = {}) => {
   const context = canvas.getContext("2d");
   canvas.height = viewport.height;
   canvas.width = viewport.width;
-  canvas.style = `height: ${viewport.height}px; width: ${viewport.width}px`;
+  canvas.style = `height: ${viewport.height}px; width: ${viewport.width}px; display: none`;
 
   await page.render({ canvasContext: context, viewport }).promise;
   return new Promise(resolve => {

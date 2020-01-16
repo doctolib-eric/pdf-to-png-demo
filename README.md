@@ -1,4 +1,4 @@
-# Browser-side PDF to PNG conversion
+# Browser-side PDF to PNG conversion (demo app)
 
 ## Known issues
 

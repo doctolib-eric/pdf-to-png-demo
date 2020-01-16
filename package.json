@@ -36,5 +36,6 @@
     "moduleNameMapper": {
       "\\.worker.js": "<rootDir>/__mocks__/workerMock.js"
     }
-  }
+  },
+  "homepage": "."
 }

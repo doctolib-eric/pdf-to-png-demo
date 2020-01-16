@@ -1,5 +1,7 @@
 # Browser-side PDF to PNG conversion (demo app)
 
+[Live version](https://doctolib-eric.github.io/pdf-to-png-demo/)
+
 Demo app for [pdf-to-png](https://github.com/doctolib-eric/pdf-to-png).
 
 See the `App.js` file for the actual implementation, everything else is basically boilerplate.

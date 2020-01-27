@@ -1014,6 +1014,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@doctolib/pdf-to-png@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@doctolib/pdf-to-png/-/pdf-to-png-0.1.1.tgz#fa216866a174e6db42d64d18a3bba8b1496b7eb9"
+  integrity sha512-p/nJvO3dEQVxcTzkGQZ23QFQ9wXw/KNZs4B3TnA040amIqtgir1PPmYi4/gtaG6iDKwYpj2cOm02ZeMBKt1SQw==
+  dependencies:
+    pdfjs-dist "^2.0.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -7448,13 +7455,7 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdf-to-png@doctolib-eric/pdf-to-png#master:
-  version "0.1.0"
-  resolved "https://codeload.github.com/doctolib-eric/pdf-to-png/tar.gz/e8e0167d28389df4d4c26adffc70061f1061f6ac"
-  dependencies:
-    pdfjs-dist "^2.2.228"
-
-pdfjs-dist@^2.2.228:
+pdfjs-dist@^2.0.0:
   version "2.2.228"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.2.228.tgz#777b068a0a16c96418433303807c183058b47aaa"
   integrity sha512-W5LhYPMS2UKX0ELIa4u+CFCMoox5qQNQElt0bAK2mwz1V8jZL0rvLao+0tBujce84PK6PvWG36Nwr7agCCWFGQ==

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import pdfToPng from "pdf-to-png";
+import pdfToPng from "@doctolib/pdf-to-png";
 
 export default () => {
   const [pngUrl, setPngUrl] = React.useState();
